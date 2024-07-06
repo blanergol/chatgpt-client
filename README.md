@@ -21,8 +21,8 @@
 
 1. Клонируйте репозиторий:
    ```sh
-   git clone https://github.com/yourusername/chatgpt-javafx-client.git
-   cd chatgpt-javafx-client
+   git clone https://github.com/blanergol/chatgpt-client.git
+   cd chatgpt-client
    ```
 
 2. Убедитесь, что у вас установлен Java 11 или выше и Maven.
@@ -38,7 +38,7 @@
 
 ### Структура проекта
 
-- `src/main/java/com/example/ChatGPTApp.java` - основной класс приложения
+- `src/main/java/com/chatgpt_client/ChatGPTClient.java` - основной класс приложения
 - `config.ini` - файл конфигурации для API токена и модели
 - `chats.json` - файл для хранения чатов
 
@@ -68,8 +68,8 @@ This is a JavaFX application that allows interaction with ChatGPT via the OpenAI
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/chatgpt-javafx-client.git
-   cd chatgpt-javafx-client
+   git clone https://github.com/blanergol/chatgpt-client.git
+   cd chatgpt-client
    ```
 
 2. Ensure you have Java 11 or higher and Maven installed.
@@ -85,7 +85,7 @@ The application uses the `config.ini` file to store the API token and selected m
 
 ### Project Structure
 
-- `src/main/java/com/example/ChatGPTApp.java` - main application class
+- `src/main/java/com/chatgpt_client/ChatGPTClient.java` - main application class
 - `config.ini` - configuration file for API token and model
 - `chats.json` - file for storing chats
 
